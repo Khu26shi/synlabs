@@ -1,0 +1,82 @@
+body{
+  background-color: rgba(231, 231, 76, 0.822);
+}
+.user-table {
+    width: 99%;
+    border-collapse: collapse;
+    border: 2px solid ;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .user-table th {
+    background-color: #e27373;
+  }
+  
+  .even-row {
+    background-color: #3fb2dcd7;
+    color: rgb(139, 54, 8);
+  }
+  
+  .odd-row {
+    background-color: #0a6973d0;
+    color: rgb(215, 194, 167);
+  }
+  h1{
+    margin-left: 620px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(72, 6, 134);
+
+  }
+  .editbutton{
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    background-color: burlywood;
+  }
+
+  .editbutton:hover{
+    cursor: pointer;
+    background-color: coral;
+  }
+  .deletebutton{
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    background-color: burlywood;
+
+  }
+  .deletebutton:hover{
+    cursor: pointer;
+    background-color: coral;
+  }
+  /* Style adjustments for mobile screens */
+@media (max-width: 768px) {
+  .user-table th, .user-table td {
+    font-size: 12px; /* Reduce font size */
+  }
+}
+
+/* For large screens */
+@media (min-width: 769px) {
+  .user-table th, .user-table td {
+    font-size: 16px; /* Increase font size */
+  }
+}
+  

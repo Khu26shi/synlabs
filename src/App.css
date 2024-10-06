@@ -1,0 +1,14 @@
+/* Example for responsiveness */
+@media (max-width: 768px) {
+  .user-table {
+    width: 100%;
+  }
+
+  .user-table th, .user-table td {
+    padding: 6px;
+  }
+
+  .user-table td {
+    font-size: 14px;
+  }
+}
